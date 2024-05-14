@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+.rc-pagination-item {
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+.rc-pagination-item-active {
+  background-color: #2db7f5;
+  border-color: #2db7f5;
+}
+.rc-pagination-item-active a,.rc-pagination-item-active:hover a {
+  color: #fff;
+}
